@@ -7,6 +7,8 @@ sudo mkdir nexus-data
 docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nexus3
 sudo docker ps
 sudo docker exec -it <Container_id> cat /nexus-data/admin.password
+link:
+https://www.devopstricks.in/deploy-sonatype-nexus-repository-oss-v3-on-docker-container/
 
 ===========================================================================================================
 vagrant nexus installation
